@@ -6,7 +6,7 @@ This project was developed as part of a Bachelor’s degree thesis in Electrical
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This system combines:
 
@@ -18,7 +18,7 @@ Unlike cloud-based assistants, the entire inference pipeline runs locally on ESP
 
 ---
 
-## 🔐 Motivation
+##  Motivation
 
 Most smart home voice assistants rely on cloud processing and focus only on keyword detection.
 
@@ -31,7 +31,7 @@ This project explores a different approach:
 
 ---
 
-## ⚙️ System Architecture
+##  System Architecture
 
 1. Audio acquisition via INMP441 (I2S microphone)
 2. Feature extraction using Mel Filterbank Energies (MFE)
@@ -42,7 +42,7 @@ This project explores a different approach:
 
 ---
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 - Platform: Edge Impulse
 - Feature extraction: Mel Filterbank Energies (MFE)
@@ -56,7 +56,7 @@ https://docs.edgeimpulse.com/tutorials/end-to-end/sound-recognition
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 - Overall accuracy: ~96%
 - Low false activation rate for unauthorized users
@@ -67,7 +67,7 @@ See `/results` for detailed evaluation plots.
 
 ---
 
-## 🎛 System Behavior
+##  System Behavior
 
 | Spoken Command        | System Response |
 |----------------------|----------------|
@@ -80,7 +80,7 @@ Security logic prefers false rejection over false acceptance.
 
 ---
 
-## 🛠 Hardware Setup
+##  Hardware Setup
 
 ### Components
 - ESP32 DevKit (ESP-WROOM-32)
@@ -93,7 +93,7 @@ See `/hardware` for wiring diagram and pin mapping.
 
 ---
 
-## 🔌 Pin Mapping
+##  Pin Mapping
 
 | ESP32 Pin | Function |
 |------------|----------|
@@ -105,7 +105,7 @@ See `/hardware` for wiring diagram and pin mapping.
 
 ---
 
-## 🚀 Installation & Deployment
+##  Installation & Deployment
 
 1. Install Arduino IDE
 2. Install ESP32 board support
@@ -118,7 +118,7 @@ See `/hardware` for wiring diagram and pin mapping.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 - `/firmware` → Arduino source code
 - `/ei-model` → Exported Edge Impulse library
@@ -128,7 +128,7 @@ See `/hardware` for wiring diagram and pin mapping.
 
 ---
 
-## ⚠ Limitations
+##  Limitations
 
 - Performance decreases in noisy environments
 - Limited dataset diversity
@@ -136,7 +136,7 @@ See `/hardware` for wiring diagram and pin mapping.
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - Larger dataset
 - Multi-user personalization
@@ -146,12 +146,12 @@ See `/hardware` for wiring diagram and pin mapping.
 
 ---
 
-## 📜 License
+##  License
 
 MIT License
 
 ---
 
-## 👨‍🎓 Academic Context
+## Academic Context
 
 Developed as a Bachelor’s thesis project in Embedded Systems and TinyML.
